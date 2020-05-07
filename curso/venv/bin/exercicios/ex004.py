@@ -1,0 +1,10 @@
+n = (input("Digite algo!"))
+print('Esse texto tem o formato',type(n))
+print('Possui só letras maiusculas?',n.isupper())
+print('Possui só letras minusculas?',n.islower())
+print('Possui numeros?', n.isnumeric())
+print('Possui alfabeto?',n.isalpha())
+print('Possui alfanuméricos?',n.isalnum())
+print('É capitalizada?',n.istitle())
+print('Tem espaços?',n.isspace())
+
